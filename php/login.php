@@ -8,18 +8,20 @@
     </head>
     <body>
         <div class="logincontainer">
-            <table>
-                <tr>
-                    <td><label>Email</label></td>
-                    <td><input class="textinput" type="email" name="email"></td>
-                </tr>
-                <tr>
-                    <td><label>Password</label></td>
-                    <td><input class="textinput" type="password" name="password"></td>
-                </tr>
-            </table>
-            <br>
-            <input class="submitinput" type="submit" value="Login" name="login">
+            <form>
+                <table>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input class="textinput" type="email" name="email"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Password</label></td>
+                        <td><input class="textinput" type="password" name="password"></td>
+                    </tr>
+                </table>
+                <br>
+                <input class="submitinput" type="submit" value="Login" name="login">
+            </form>
         </div>
     </body>
 </html>

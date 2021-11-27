@@ -1,0 +1,21 @@
+#login
+#register for user
+#seller register
+user home => search - company
+company home => search - model year
+#product => save
+seller home(my product) => view - Add - edit - delete
+user profile => edit - delete
+cart => delete items
+bill => view
+
+database:
+users: id - fname - lname - email - passord - phone - address
+
+seller: id - fname - lname - email - password - phone - address
+
+product: id - name - company - model year - discription - price - quantity - image1- image2
+
+cart: id - userId - itemId - itemName - price - quantity - total
+
+bill: billId - userId - itemId - fullName- price - quantity - date - shipping - total

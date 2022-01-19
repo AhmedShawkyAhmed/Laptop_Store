@@ -6,8 +6,7 @@ company home => search - model year
 #product => save
 seller home(my product) => view - Add - edit - delete
 user profile => edit - delete
-cart => delete items
-bill => view
+#bill => view
 
 database:
 users: id - fname - lname - email - passord - phone - address

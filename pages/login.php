@@ -1,6 +1,3 @@
-<?php
-?>
-
 <html>
     <head>
         <title>LogIn</title>
@@ -8,7 +5,8 @@
     </head>
     <body>
         <div class="logincontainer">
-            <form>
+        <form method="POST" action="../api/insert.php">
+                <label class="title">Login</label>
                 <table>
                     <tr>
                         <td><label>Email</label></td>
@@ -20,8 +18,12 @@
                     </tr>
                 </table>
                 <br>
-                <input class="submitinput" type="submit" value="Login" name="login">
+                <button class="submitinput" type="submit" name="login">Login</button>
             </form>
+            <hr width="400">
+            <a href="userRegister.php" target="_self"><button class="submitinput" type="submit">Join as Customer</button></a>
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="storeRegister.php" target="_self"><button class="submitinput" type="submit">Join as Store</button></a>
         </div>
     </body>
 </html>
